@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+<!--
+html5_elements.html
+-->
+
+	<meta charset="utf-8" />
+
+	</head>
+
+		<body>
+
+			<h1 id="page_title"><abbr title="Hypertext Markup Language 5.0">HTML5</abbr> Elements</h1>
+
+			<details id="details_&_summary">
+
+				<summary>Links to Examples</summary>
+
+				<ul>
+					<li><a href="#page_title">&lt;abbr&gt;</a></li>
+				    <li><a href="#footer_info">&lt;address&gt;</a></li>
+				    <li><a href="#news_feed">&lt;b&gt; & &lt;i&gt;</a></li>
+				    <li><a href="#html5">&lt;code&gt;</a></li>
+				    <li><a href="#footer_info">&lt;del&gt; & &lt;ins&gt;</a></li>
+				    <li><a href="#details_&_summary">&lt;details&gt; & &lt;summary&gt;</a></li>
+				    <li><a href="#news_feed">&lt;dfn&gt;</a></li>
+				    <li><a href="#news_feed">&lt;figure&gt; & &lt;figcaption&gt;</a></li>
+				    <li><a href="#page_break_a">&lt;hr /&gt;</a></li>
+				    <li><a href="#input_prompt">&lt;kbd&gt;</a></li>
+				    <li><a href="#html5">&lt;mark&gt;</a></li>
+				    <li><a href="#footer_info">&lt;meter&gt;</a></li>
+				    <li><a href="#html5">&lt;pre&gt;</a></li>
+				    <li><a href="#css_news">&lt;samp&gt;</a></li>
+				    <li><a href="#footer_info">&lt;small&gt;</a></li>
+				    <li><a href="#water_on_moon">&lt;sup&gt; & &lt;sub&gt;</a></li>
+				    <li><a href="#news_feed">&lt;time&gt;</a></li>
+				    <li><a href="#failed">&lt;var&gt;</a></li>
+
+				</ul>
+
+			</details>
+
+			<hr id="page_break_a" />
+
+			<h2 id="news_feed">News</h2>
+
+				<p>
+					All up-to-date news stories appear below!
+				</p>
+
+				<hr />
+
+					<h3>The all new Black Ops II released in France on <time datetime="12-25-2012">Christmas Eve</time> and has already <var id="failed">failed!</var></h3>
+
+					<p><b>Call of Duty: Black Ops II</b> has dropped in France and has already been given the nickname <i><dfn title="The Turd">Le Merde</dfn></i>
+
+				<figure>
+					<img src="images/le_merde.png" alt="Black Ops 2: Le Merde" />
+					<figcaption>Black Ops 2: Le Merde</figcaption>
+				</figure>
+
+				<hr />
+
+					<h3 id="html5">HTML5 Introduces new functionality for <mark>select</mark> browsers</h3>
+
+					<p>HTML5 has some new tags available for use. One of the cool ones is: <code>&lt;details&gt; and &lt;summary&gt;</code> These allow you to insert a drop-down menu of sorts that will reveal content when you interact with it. Only down side is it only works inside Chrome's web browser.
+					</p>
+
+				<hr />
+
+					<h3 id="css_news">CSS news</h3>
+
+					<p>Here is some sample output of some of the CSS code I've worked on: <pre><samp><code>body	{
+margin: 0 auto;
+width: 960px;
+color: #fff;
+font-family: 'Exo', sans-serif;
+background: url(../images/RZR_TronKB_Blk/RZR_Tron_KB_MainView.png) no-repeat 2% 0%, 
+-moz-linear-gradient(top, #000 28%, #63c9d8 50%); 
+}
+					</code></samp></pre></p>
+
+				<hr />
+
+				<h3 id="water_on_moon">Potential life found on Jupiter's Titan</h3>
+
+				<p>
+					Scientists have recently discovered that there is H<sub>2</sub>O on Titan, a moon of Jupiter. Knowing this, it is somewhat possible for small units of life to exist on this moon.
+				</p>
+
+				<hr />
+
+				<p id="input_prompt">Press <kbd>esc</kbd> to go back to the top</p>
+
+			<footer id="footer_info">
+				<address>
+					Contact me at <del>555-5555</del><ins> 934-6127</ins>
+				</address>
+				<small>	Copyright 2012</small>
+				<p>Page loaded: <meter value="100" min="0" max="100">100%</meter></p>
+			</footer>
+
+		</body>
+
+</html>
