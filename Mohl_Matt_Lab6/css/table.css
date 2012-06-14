@@ -1,0 +1,29 @@
+body{
+	font-family: Helvetica, Arial;
+}
+
+caption{
+	border-bottom: 1px solid #ccc;
+	background-color: #21882d;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+tr{
+	border-bottom: 1px solid #ccc;
+}
+
+th, td{
+	border-right: 1px solid #ccc;
+}
+
+th{
+	background-color: #3bae49;
+}
+
+td{
+	background-color: #85e890;
+	text-align: center;
+}
