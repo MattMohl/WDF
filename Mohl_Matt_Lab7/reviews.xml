@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0">
+
+	<channel>
+		<title>Movie Reviews</title>
+		<link></link>
+		<description>Matt's reviews of recent box office hits</description>
+		<item>
+			<title>Titanic 3D</title>
+			<link></link>
+			<description>My review of Titanic 3D</description>
+		</item>
+	</channel>
+
+</rss>
